@@ -1,5 +1,3 @@
-import { CMS_NAME, CMS_URL } from '../lib/constants'
-
 export default function Intro() {
   return (
     <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
@@ -7,19 +5,26 @@ export default function Intro() {
         Blog.
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A statically generated blog example using{' '}
+        Un blog de{' '}
         <a
-          href="https://nextjs.org/"
+          href="https://twitter.com/blackrhumbar"
           className="underline hover:text-success duration-200 transition-colors"
         >
-          Next.js
+          Georges
+        </a>
+        ,{' '}
+        <a
+          href="https://twitter.com/webdif"
+          className="underline hover:text-success duration-200 transition-colors"
+        >
+          Maxime
         </a>{' '}
-        and{' '}
+        et {' '}
         <a
-          href={CMS_URL}
+          href="https://twitter.com/qlex_"
           className="underline hover:text-success duration-200 transition-colors"
         >
-          Sanity.io
+          Alexandre
         </a>
         .
       </h4>

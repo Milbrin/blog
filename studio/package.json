@@ -1,10 +1,10 @@
 {
-	"name": "mysanityproject",
+	"name": "mecanosducode",
 	"private": true,
 	"version": "1.0.0",
 	"description": "",
 	"main": "package.json",
-	"author": "Knut Melvær <knut@sanity.io>",
+	"author": "Georges Sempéré <favouille@gmail.com>",
 	"license": "UNLICENSED",
 	"keywords": [
 		"sanity"
